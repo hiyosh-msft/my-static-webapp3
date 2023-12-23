@@ -39,6 +39,10 @@
 
     "networking": {
         "allowedIpRanges": ["10.2.0.0/24"]
+    },
+
+    "forwardingGateway": {
+        "allowedForwardedHosts": ["20.222.116.147"]
     }
     
 }
