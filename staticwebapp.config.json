@@ -6,21 +6,21 @@
         },
         {
             "route": "/login",
-            "redirect": "/.auth/login/aad?post_login_redirect_uri=https://white-sea-08619ed10.4.azurestaticapps.net/index2.html"
+            "redirect": "http://20.222.116.147/.auth/login/aad?post_login_redirect_uri=http://20.222.116.147/index2.html"
         },
         {
              "route": "/logout",
-             "redirect": "/.auth/logout?post_logout_redirect_uri=https://white-sea-08619ed10.4.azurestaticapps.net"
+             "redirect": "http://20.222.116.147/.auth/logout?post_logout_redirect_uri=http://20.222.116.147"
         }
     ],
     
     "navigationFallback": {
-        "rewrite": "/index.html"
+        "rewrite": "http://20.222.116.147/index.html"
     },
     
     "responseOverrides": {
         "401": {
-          "redirect": "/login",
+          "redirect": "http://20.222.116.147/login",
           "statusCode": 302
         }
     },
