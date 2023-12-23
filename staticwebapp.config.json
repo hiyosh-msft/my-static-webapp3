@@ -42,7 +42,7 @@
     },
 
     "forwardingGateway": {
-        "allowedForwardedHosts": ["20.222.116.147"]
+        "allowedForwardedHosts": ["20.222.116.147", "white-sea-08619ed10.4.azurestaticapps.net"]
     }
     
 }
