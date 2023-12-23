@@ -6,7 +6,7 @@
         },
         {
             "route": "/login",
-            "redirect": "/.auth/login/aad"
+            "redirect": "/.auth/login/aad?post_login_redirect_uri=.referrer"
         },
         {
              "route": "/logout",
@@ -20,7 +20,7 @@
     
     "responseOverrides": {
         "401": {
-          "redirect": "/login?post_login_redirect_uri=.referrer",
+          "redirect": "/login",
           "statusCode": 302
         }
     }
